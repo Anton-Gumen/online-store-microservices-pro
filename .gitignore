@@ -1,47 +1,10 @@
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
-out/
-
-# IDE
-.idea/
-*.iml
-*.iws
-*.ipr
-.mvn/
-.m2/
-.vscode/
-.settings/
-.project
-.classpath
-
-# Logs
-logs/
-*.log
-
-# Docker
-*.pid
-docker-compose.override.yml
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Application specific
-application-local.yml
-application-dev.yml
-*.key
-*.p12
-
-# Database volumes (важно - не заливать данные БД!)
-pg-*-data/
-*.db
-*.sql
-
-# Kafka data
-kafka-data/
-
-# Environment variables
-.env
-.env.local
+.gradle/ 
+build/ 
+.idea/ 
+*.iml 
+.DS_Store 
+Thumbs.db 
+pg-*-data/ 
+kafka-data/ 
+*.log 
+.vscode/ 
