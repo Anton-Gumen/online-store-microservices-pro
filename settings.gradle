@@ -1,0 +1,2 @@
+rootProject.name = 'online-store-microservices'
+include 'order-service', 'inventory-service', 'notification-service'
